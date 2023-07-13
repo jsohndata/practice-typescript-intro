@@ -31,6 +31,11 @@ let student1: IEmployee = {
   }
 };
 
+/* 
+  Rather than using :any it's better to use 
+  //@ts-ignore
+    => this will ignore the error for that line
+*/  
 let manager1: IManager = {
   fName: "Agent",
   lName: "Smith",
