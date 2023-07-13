@@ -9,8 +9,17 @@ interface IEmployee {
   };
 };
 
+/* 
+  IManager brings in everything from IEmployee
+  and extends it with the following.
+ */
+interface IManager extends IEmployee {
+  salary: number;
+};
 
 
+
+/* ********************************** */
 let student1: IEmployee = {
   fName: "Thomas",
   lName: "Anderson",
@@ -22,7 +31,7 @@ let student1: IEmployee = {
   }
 };
 
-let manager1: IEmployee = {
+let manager1: IManager = {
   fName: "Agent",
   lName: "Smith",
   age: 30,
@@ -30,6 +39,6 @@ let manager1: IEmployee = {
   app: {
     appName: "Sentinel",
     production: true,
-  }
+  },
+  salary: 1000000
 };
-
