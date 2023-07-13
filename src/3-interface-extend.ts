@@ -31,6 +31,21 @@ let student1: IEmployee = {
   }
 };
 
+/*
+  This is the same as the above but with a
+  different way of writing it.
+*/
+ 
+const employees: IEmployee[] = [
+  { 
+    fName: "Thomas", 
+    lName: "Anderson", 
+    age: 23, 
+    cool: true, 
+    app: { appName: "Matrix", production: true, } 
+  },
+];
+
 /* 
   Rather than using :any it's better to use 
   //@ts-ignore
