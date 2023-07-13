@@ -1,4 +1,8 @@
-* install Typescript
+# TypeScript (TS) Intro
+TypeScript code in a JavaScript environment to learn the language's features and syntax. Course for C-11.
+
+## CLI
+ * install Typescript
 `npx tsc`
 
 * `tsc -h` 
@@ -11,11 +15,6 @@
 
 <br>
 
-## Interface
-Either starts with an `I` or `T`
-
-<br>
-
 
 ## tsconfig.json
 * `"rootDir": "./src"`
@@ -24,4 +23,12 @@ Either starts with an `I` or `T`
 * `"outDir": "./build"`
 <br> Specify an output folder for all emitted files. */
 
-type `tsc` to comlpile, then it'll generate a .js file.
+* type `tsc` to comlpile, then it'll generate a .js file.
+
+<br>
+
+## Interface
+* Either starts with an `I` or `T`
+
+
+
