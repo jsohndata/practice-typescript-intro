@@ -9,6 +9,13 @@
 
 * `tsc --init`
 
+<br>
+
+## Interface
+Either starts with an `I` or `T`
+
+<br>
+
 
 ## tsconfig.json
 * `"rootDir": "./src"`

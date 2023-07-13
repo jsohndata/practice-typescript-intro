@@ -16,8 +16,8 @@ mName = 1337;
 mName = undefined;
 
 
-import { twoSum } from './intro';
-import { threeSum } from './interface';
+import { twoSum } from './1-intro';
+import { threeSum } from './2-interface';
 
 twoSum(10, 20, "Hello Universe!");
 threeSum( {num1:30, num2:40, message:"Hello Galaxy!"} );
